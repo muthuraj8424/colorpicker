@@ -1,0 +1,26 @@
+body {
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+  border: 3px solid black;
+}
